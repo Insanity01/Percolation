@@ -45,7 +45,7 @@ public class Percolation {
 
         gridSize = n;
         grid = new int[n][n];
-        gridUnion = new WeightedQuickUnionUF(n * n);
+        gridUnion = new WeightedQuickUnionUF(n * n); //400 potential nodes
     }
 
     public void open(int row, int col) {
